@@ -1,19 +1,21 @@
-
+import Container from './App.styled';
 
 import Section from './components/Section/Section';
 import Profile from './components/Profile/Profile/Profile';
 import Statistics from 'components/Statistics/Statistics/Statistics';
 import FriendList from './components/FriendList/FriendList/FriendList';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory/TransactionHistory';
 
 
 import user from './components/Profile/user.json';
 import data from './components/Statistics/data.json';
 import friends from './components/FriendList/friends.json';
+import transactions from './components/TransactionHistory/transactions.json';
 
 
 function App() {
   return (
-    <div /*className={styles.app}*/>
+    <Container>
       <Section title="Homework 1">
         <Profile
           username={user.username}
@@ -32,8 +34,10 @@ function App() {
         <FriendList friendsData={friends} />
       </Section>
 
-
-    </div>
+      <Section title="Homework 4">
+        <TransactionHistory data={transactions} />
+      </Section>
+    </Container>
   );
 }
 
