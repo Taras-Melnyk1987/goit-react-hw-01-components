@@ -2,14 +2,16 @@
 
 import Section from './components/Section/Section';
 import Profile from './components/Profile/Profile/Profile';
+import Statistics from 'components/Statistics/Statistics/Statistics';
 
 
 import user from './components/Profile/user.json';
+import data from './components/Statistics/data.json';
 
 
 function App() {
   return (
-    /*<div className={styles.app}>*/
+    <div /*className={styles.app}*/>
       <Section title="Homework 1">
         <Profile
           username={user.username}
@@ -20,8 +22,12 @@ function App() {
         />
       </Section>
 
+      <Section title="Homework 2">
+        <Statistics title="Upload stats" stats={data} />
+      </Section>
 
-    /*</div>*/
+
+    </div>
   );
 }
 
