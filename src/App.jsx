@@ -1,17 +1,28 @@
-export const App = () => {
+
+
+import Section from './components/Section/Section';
+import Profile from './components/Profile/Profile/Profile';
+
+
+import user from './components/Profile/user.json';
+
+
+function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        textTransform: 'uppercase',
-        color: '#010101',
-      }}
-    >
-      React homework template
-    </div>
+    /*<div className={styles.app}>*/
+      <Section title="Homework 1">
+        <Profile
+          username={user.username}
+          tag={user.tag}
+          location={user.location}
+          avatar={user.avatar}
+          stats={user.stats}
+        />
+      </Section>
+
+
+    /*</div>*/
   );
-};
+}
+
+export default App;
