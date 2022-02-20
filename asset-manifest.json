@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Taras-Melnyk1987/goit-react-hw-01-components.git/static/css/main.818eea2b.css",
-    "main.js": "/Taras-Melnyk1987/goit-react-hw-01-components.git/static/js/main.f271f2f7.js",
-    "index.html": "/Taras-Melnyk1987/goit-react-hw-01-components.git/index.html",
-    "main.818eea2b.css.map": "/Taras-Melnyk1987/goit-react-hw-01-components.git/static/css/main.818eea2b.css.map",
-    "main.f271f2f7.js.map": "/Taras-Melnyk1987/goit-react-hw-01-components.git/static/js/main.f271f2f7.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.818eea2b.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.0642724e.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.818eea2b.css.map": "/goit-react-hw-01-components/static/css/main.818eea2b.css.map",
+    "main.0642724e.js.map": "/goit-react-hw-01-components/static/js/main.0642724e.js.map"
   },
   "entrypoints": [
     "static/css/main.818eea2b.css",
-    "static/js/main.f271f2f7.js"
+    "static/js/main.0642724e.js"
   ]
 }
