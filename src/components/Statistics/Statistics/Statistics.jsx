@@ -6,7 +6,7 @@ import StatisticsList from '../StatisticsList/StatisticsList';
 const Statistics = ({ title, stats }) => {
   return (
     <StatisticsBlock>
-      {title ? <Title>Upload stats</Title> : null}
+      {title && <Title>Upload stats</Title>}
       <StatisticsList statsData={stats} />
     </StatisticsBlock>
   );

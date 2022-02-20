@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StatList, Item, Label, Percentage } from './StatisticsList.styled';
+import getRundomColor from '../../Utils/Utils';
 
 const StatisticsList = ({ statsData }) => (
   <StatList>
@@ -27,7 +28,7 @@ StatisticsList.propTypes = {
 
 export default StatisticsList;
 
-function getRndInteger(min, max) {
+/*function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
@@ -37,4 +38,4 @@ function getRundomColor() {
     255,
   )}, ${getRndInteger(0, 255)})`;
   return color;
-}
+}*/
