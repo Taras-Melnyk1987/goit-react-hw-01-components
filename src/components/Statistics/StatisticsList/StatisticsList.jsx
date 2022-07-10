@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StatList, Item, Label, Percentage } from './StatisticsList.styled';
-import getRundomColor from '../../Utils/Utils';
+import getRundomColor from '../../../Utils/Utils';
 
 const StatisticsList = ({ statsData }) => (
   <StatList>

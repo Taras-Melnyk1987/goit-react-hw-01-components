@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ListItem from '../ListItem.jsx/ListItem';
+import ListItem from '../ListItem/ListItem';
 import { Stats, Item } from './StatList.styled';
 
 const StatList = ({ userStats }) => {
@@ -17,6 +17,6 @@ const StatList = ({ userStats }) => {
   };
   
   StatList.propTypes = {
-    userStats: PropTypes.object,
+    userStats: PropTypes.objectOf(PropTypes.number),
   };
   export default StatList;

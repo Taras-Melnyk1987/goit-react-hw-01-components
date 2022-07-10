@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { TransactionRow } from '../TransactionHistory/TransactionHistory.styled';
 import { TransactionData } from './Тransaction.styled';
 
@@ -14,6 +15,12 @@ const Transaction = ({
       <TransactionData>{TransactionCurrency}</TransactionData>
     </TransactionRow>
   );
+};
+
+Transaction.propTypes = {
+  TransactionType: PropTypes.string.isRequired,
+  TransactionAmount: PropTypes.string.isRequired,
+  TransactionCurrency: PropTypes.string.isRequired,
 };
 
 export default Transaction;

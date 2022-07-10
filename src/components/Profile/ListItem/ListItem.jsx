@@ -13,7 +13,7 @@ const ListItem = ({ itemLabel, itemValue }) => {
 
 ListItem.prototype = {
   itemLabel: PropTypes.string.isRequired,
-  itemValue: PropTypes.number,
+  itemValue: PropTypes.number.isRequired,
 };
 
 export default ListItem;
